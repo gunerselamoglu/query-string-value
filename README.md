@@ -14,11 +14,17 @@
 import queryStringValue from 'get-query-string-value'
 
 
-const querystring = '?url=web&caption=lorem&version=1.0'
+const queryString = '?url=web&caption=lorem&version=1.0' // string
 
-const getVal = 'caption'    // string
+const getCaption = 'caption' // string
+const getUrl = 'url' // string
+const getVersion = 'version' // string
 
-removeItems(querystring, getVal)  // lorem
+queryStringValue(queryString, getCaption)  // lorem
+
+queryStringValue(queryString, getUrl)  // web
+
+queryStringValue(queryString, getVersion)  // 1.0
 ```
 
 ```
