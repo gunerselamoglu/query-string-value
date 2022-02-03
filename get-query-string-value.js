@@ -3,10 +3,10 @@
  *
  * @function queryStringValue
  * @param {String<*>} string The target query string
- * @param {String} value The target value
+ * @param {String} value The particular value
  */
 
- export default function queryStringValue (string, value) {
+ module.exports = (string, value) => {
   let _string = string;
   let _splitter = value;
   let _splitArray = _string.split('&');
