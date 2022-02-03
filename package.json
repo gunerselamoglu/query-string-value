@@ -1,6 +1,6 @@
 {
   "name": "get-query-string-value",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get query string value from url",
   "main": "get-query-string-value.js",
   "scripts": {
