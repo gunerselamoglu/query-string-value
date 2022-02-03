@@ -1,0 +1,30 @@
+{
+  "name": "get-query-string-value",
+  "version": "1.0.0",
+  "description": "Get query string value from url",
+  "main": "get-query-string-value.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunerselamoglu/query-string-value.git"
+  },
+  "keywords": [
+    "get",
+    "query",
+    "string",
+    "value",
+    "url",
+    "partials",
+    "url",
+    "query",
+    "string"
+  ],
+  "author": "Güner Selamoğlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunerselamoglu/query-string-value/issues"
+  },
+  "homepage": "https://github.com/gunerselamoglu/query-string-value#readme"
+}
